@@ -45,6 +45,9 @@ button{
     background: linear-gradient(to bottom, #F09819, #e39788); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none ;
 }
+button:hover{
+    box-shadow: 5px 5px 5px #fceabb;
+}
 
 #meme-generator-btn {
     display: block;
