@@ -24,11 +24,14 @@ header h1{
 }
 
 .card {
+    align-items: center;
     display: flex;
     flex-direction: column;
     flex: 1;                 /* Allows the card to grow and fill available space */
     justify-content: center; /* Centers content within the card */
     text-align: center;
+    margin-top: 10em;
+
 }
 
 h4{
@@ -48,6 +51,7 @@ button{
 button:hover{
     box-shadow: 5px 5px 5px #fceabb;
 }
+
 
 #meme-generator-btn {
     display: block;
