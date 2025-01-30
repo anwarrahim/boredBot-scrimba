@@ -4,7 +4,7 @@ document.getElementById('activity-generator-btn').addEventListener('click',funct
     fetch("https://apis.scrimba.com/bored/api/activity")
         .then(response => response.json())
         .then(data => {
-            document.getElementById('text-activity').innerHTML = `<p>${data.activity}</p>`
+            document.getElementById('text-activity').textContent =data.activity
         })
 })
 
