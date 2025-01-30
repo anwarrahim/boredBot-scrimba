@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background: #fceabb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    width: 27.75em;          /* 380px ÷ 16px (default font-size) */
+    height: 100vh;        /* 600px ÷ 16px */
+    margin: 0 auto;
+    justify-content: center; /* Centers content vertically */
+    align-items: center;     /* Centers content horizontally */
+}
+header h1{
+    padding:1.025em ;
+    margin-top: 0;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;                 /* Allows the card to grow and fill available space */
+    justify-content: center; /* Centers content within the card */
+    text-align: center;
+}
+p{
+    font-size: 1.4rem;
+
+}
+button{
+    /*padding: 1em 2em;*/
+    width: 9.5em;
+    height: 4em;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#meme-generator-btn {
+    display: block;
+    margin-top: 12.75em;     /* 204px ÷ 16px */
+}
